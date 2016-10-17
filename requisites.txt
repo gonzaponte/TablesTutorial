@@ -1,0 +1,38 @@
+In order to follow the course, make sure that you have an environment with Python 3 installed and the next Python packages on it:
+
+- numpy
+- scipy
+- ipython
+- jupyter
+- matplotlib
+- seaborn
+- altair
+- pyflakes
+- pylint
+- nose
+- pytest
+- psutil
+- memory_profiler
+- ipython_memwatcher
+- pybind11
+- cython
+- numexpr
+- numba
+- f2py
+- gcc
+- tables (pytables)
+- xarray
+- pandas
+- bcolz
+- scikit-image
+
+I recommend to use Anaconda to install most of the packages above, and for the software that is not in anaconda.org repos, just use pip, e.g.:
+
+$ pip install ipython_memwatcher
+$ pip install pybind11
+$ conda install altair --channel conda-forge
+$ pip install altair
+
+Also, it is recommended to install the GCC compiler that comes with the anaconda distribution:
+
+$ conda install gcc
